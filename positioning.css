@@ -3,3 +3,22 @@
     margin: 0;
     padding: 0;
 }
+
+div{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 1rem;
+    background-color: red;
+}
+div:nth-of-type(1){
+    background-color: green;
+}
+
+div:nth-of-type(2){
+    position: fix;
+    background-color: blue;
+    right:0px;
+    top:50px;
+    z-index: 15;
+}
